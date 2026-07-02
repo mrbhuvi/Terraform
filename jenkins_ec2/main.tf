@@ -2,7 +2,7 @@ provider "aws" {
   region = "ap-south-1"  # change if needed
 }
 
-# Existing Security Group (Jenkins SG)
+# Existing Security Group (Jenkins SG) added one
 variable "jenkins_sg_id" {
   default = "sg-08c8a85969afcc509"
 }
